@@ -1,0 +1,36 @@
+#colorButton{
+    font-size: 30px;
+    width: 400px;
+    height: auto;
+    color: black;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#calculator {
+    text-align: center;
+    background-image: linear-gradient( blueviolet, white);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+input, #calc_button {
+    margin: 5px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 10px;
+}
